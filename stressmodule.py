@@ -43,7 +43,9 @@ def StrainToStress(canonical_strains, young_module, poisson_module):
         Return: numpy array-like
             1D array that contains the normal stresses.   
     """
-    coefMatrix = ( -1*poisson_module*np.ones((3,3)) + (poisson_module+1)*np.identity(3) )/young_module
+    dimension = canonical_strains.shape[0]
+
+    coefMatrix = ( -1*poisson_module*np.ones((dimension,dimension)) + (poisson_module+1)*np.identity(dimension) )/young_module
     return np.linalg.solve(coefMatrix, canonical_strains)
 
 def PrincipalStresses(stress_tensor):
