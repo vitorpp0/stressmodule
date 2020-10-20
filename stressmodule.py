@@ -54,7 +54,7 @@ def PrincipalStresses(stress_tensor):
         Parameters:
         -----------
         stress_tensor: numpy array-like
-            3x3 array that contains the Cauchy's stress tensor for the element.
+            2x2 or 3x3 array that contains the Cauchy's stress tensor for the element.
 
         -------
         Return: numpy array-like
