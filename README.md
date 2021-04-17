@@ -64,7 +64,7 @@ Let's solve the other two:
         sm.stress_state(cauchy, plan_orientation,2)
 ```
 Output:<br/>
-<img src="./images/Output2.jpe"/>
+<img src="./images/Output2.JPG"/>
 
 
 ```python
@@ -83,7 +83,7 @@ Output:<br/>
         sm.stress_state(cauchy, plan_orientation,2)
 ```
 Output: <br/>
-<img src="./images/Output3.jpg"/>
+<img src="./images/Output3.JPG"/>
 
 ## End
 Hope you enjoy! :grin:
