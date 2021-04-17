@@ -23,10 +23,10 @@ Calculates the Von Mises stress on the element based on it's Cauchy's stress ten
 ## Examples:
 
 ### stress_state Application:
-Problem and Standard Solution:
+Problem and Standard Solution: <br/>
 <img src="./images/tensor_problem.jpg"/>
 
-Let's solve the first problem with the stress_state function:
+####Let's solve the first problem with the stress_state function:
 
 ```python
         import stressmodule as sm
@@ -44,7 +44,7 @@ Let's solve the first problem with the stress_state function:
         sm.stress_state(cauchy, plan_orientation)
 ```
 
-Output:<br/>
+####Output:<br/>
 <img src="./images/Output1.PNG"/>
 
 Let's solve the other two:
@@ -63,7 +63,7 @@ Let's solve the other two:
 
         sm.stress_state(cauchy, plan_orientation,2)
 ```
-Output:<br/>
+####Output:<br/>
 <img src="./images/Output2.JPG"/>
 
 
@@ -82,7 +82,7 @@ Output:<br/>
 
         sm.stress_state(cauchy, plan_orientation,2)
 ```
-Output: <br/>
+####Output: <br/>
 <img src="./images/Output3.JPG"/>
 
 ## End
