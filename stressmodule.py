@@ -4,7 +4,7 @@ import pandas as pd
 def strain_rosette(gauge_directions, gauge_measurements):
     """
         Calculates the canonical axial stresses on the element based 
-        on the strain gauges measurements.
+        on strain gauges measurements.
 
         Parameters:
         -----------
@@ -27,7 +27,7 @@ def strain_rosette(gauge_directions, gauge_measurements):
 def strain_to_stress(canonical_strains, young_module, poisson_module):
     """
         Calculates the normal stresses on the element based on it's 
-        the canonical strains.
+        canonical strains.
 
         Parameters:
         -----------
@@ -51,8 +51,8 @@ def strain_to_stress(canonical_strains, young_module, poisson_module):
 
 def principal_stresses(stress_tensor):
     """
-        Calculates the normal stresses on the element based on it's 
-        the canonical strains.
+        Calculates the principal stresses on the element based on it's 
+        canonical stresses.
 
         Parameters:
         -----------
@@ -67,8 +67,8 @@ def principal_stresses(stress_tensor):
 
 def stress_state(stress_tensor, rotation_angle, decimal_places=6):
     """
-        Calculates the normal stresses on the element based on it's 
-        the canonical strains.
+        Calculates the normal and shear stresses on any orientation based 
+        on the element canonical stresses.
 
         Parameters:
         -----------
