@@ -1,6 +1,6 @@
 # stressmodule
 
-### ⚠ A module with functions to help with Stress analysis 💪.
+### ⚠ A module with functions to help you with Stress Analysis 💪.
 
 ## List of functions
 
