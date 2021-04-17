@@ -24,7 +24,7 @@ Calculates the Von Mises stress on the element based on it's Cauchy's stress ten
 
 ### stress_state Application:
 Problem and Standard Solution:
-<img src="./images/tensor_problem.jpeg"/>
+<img src="./images/tensor_problem.jpg"/>
 
 Let's solve the first problem with the stress_state function:
 
