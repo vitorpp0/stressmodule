@@ -44,7 +44,7 @@ Let's solve the first problem with the stress_state function:
         sm.stress_state(cauchy, plan_orientation)
 ```
 
-Output:
+Output:<br/>
 <img src="./images/Output1.PNG"/>
 
 Let's solve the other two:
@@ -63,8 +63,8 @@ Let's solve the other two:
 
         sm.stress_state(cauchy, plan_orientation,2)
 ```
-Output:
-<img src="./images/Output2.jpge"/>
+Output:<br/>
+<img src="./images/Output2.jpe"/>
 
 
 ```python
@@ -82,8 +82,8 @@ Output:
 
         sm.stress_state(cauchy, plan_orientation,2)
 ```
-Output:
-<img src="./images/Output3.jpeg"/>
+Output: <br/>
+<img src="./images/Output3.jpg"/>
 
 ## End
 Hope you enjoy! :grin:
