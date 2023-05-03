@@ -86,5 +86,5 @@ Let's solve the other two:
 <img src="./images/Output3.JPG"/>
 
 ## End
-Hope you enjoy it! :grin:
+Hope you enjoyed! :grin:
 Please, consider hitting the star button!!!
